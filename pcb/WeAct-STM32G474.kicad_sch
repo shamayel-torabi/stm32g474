@@ -6929,12 +6929,6 @@
 		(uuid "0f97d6f3-f7cc-4036-8a26-7524bcb7c25f")
 	)
 	(junction
-		(at 27.94 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "109b1194-6603-4f93-b544-20aa7c762c52")
-	)
-	(junction
 		(at 45.72 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6945,18 +6939,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2752492a-bc23-451c-8831-d992bbd9d5d8")
-	)
-	(junction
-		(at 35.56 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27a15d94-9872-4521-959d-7d1a8bc9a5ad")
-	)
-	(junction
-		(at 91.44 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ad1d3c9-c2e1-47cc-9d54-c9c4b86be419")
 	)
 	(junction
 		(at 60.96 148.59)
@@ -6977,12 +6959,6 @@
 		(uuid "3dfd762d-227d-410a-b613-231e17388d57")
 	)
 	(junction
-		(at 27.94 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40986937-8616-478b-98b5-d10a8fb6fe19")
-	)
-	(junction
 		(at 180.34 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6995,13 +6971,13 @@
 		(uuid "632e232f-7d25-45ad-b92f-fafceef13a4d")
 	)
 	(junction
-		(at 50.8 74.93)
+		(at 38.1 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e81f577-6660-4c17-a040-bf2cb110bda9")
 	)
 	(junction
-		(at 58.42 63.5)
+		(at 45.72 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70e55669-26ea-4eb3-ae4b-1a4f88a8dc01")
@@ -7025,6 +7001,12 @@
 		(uuid "93ec6fd5-7f2d-47cc-8451-46c753dd170a")
 	)
 	(junction
+		(at 66.04 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0035b17-d04f-4ac7-8cf5-75f7c92a6d3e")
+	)
+	(junction
 		(at 55.88 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7037,7 +7019,7 @@
 		(uuid "aa8de7d3-b59b-4ac3-ad05-e0e107003f40")
 	)
 	(junction
-		(at 50.8 63.5)
+		(at 38.1 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae762fc5-29a7-49ed-a123-9965e2f086a2")
@@ -7053,18 +7035,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2178fe9-c762-4210-b196-6f67fa812437")
-	)
-	(junction
-		(at 35.56 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3d4ce78-7f60-46a3-b697-24de3b45ebe8")
-	)
-	(junction
-		(at 91.44 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b74bcf1a-c815-4da0-87b7-d3145cc04b05")
 	)
 	(junction
 		(at 36.83 38.1)
@@ -7091,10 +7061,22 @@
 		(uuid "cea52b35-73ac-44ab-884e-7abf7ecccca0")
 	)
 	(junction
+		(at 68.58 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dee6980b-583b-4a52-b487-c04fcad2d5bf")
+	)
+	(junction
 		(at 63.5 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e59cb419-1c67-4d67-8916-9313652b3a68")
+	)
+	(junction
+		(at 62.23 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e91a8511-c093-408e-aa52-7b1fd04edb2e")
 	)
 	(junction
 		(at 26.67 25.4)
@@ -7113,12 +7095,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2aa064e-769c-4c17-b68a-6e553983e3b2")
-	)
-	(junction
-		(at 76.2 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "faf03d5a-9de3-4485-8da4-1795ceb81274")
 	)
 	(junction
 		(at 66.04 130.81)
@@ -7146,6 +7122,10 @@
 		(at 87.63 175.26)
 		(uuid "b27b6ee2-8708-42d3-a6b3-3a1ed7947ca5")
 	)
+	(no_connect
+		(at 254 97.79)
+		(uuid "fc47b934-1453-433f-8d9f-f59abb56043b")
+	)
 	(wire
 		(pts
 			(xy 63.5 25.4) (xy 63.5 22.86)
@@ -7168,7 +7148,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 57.15) (xy 58.42 63.5)
+			(xy 45.72 57.15) (xy 45.72 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7205,6 +7185,16 @@
 			(type default)
 		)
 		(uuid "078e7159-757b-4bfa-b756-6960ce50bf0b")
+	)
+	(wire
+		(pts
+			(xy 62.23 63.5) (xy 68.58 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0849a0fb-d7c7-4916-a721-8f8612476e1b")
 	)
 	(wire
 		(pts
@@ -7268,16 +7258,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 63.5) (xy 35.56 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a7d38af-5df8-4f59-9532-d14c6752b3be")
-	)
-	(wire
-		(pts
 			(xy 198.12 85.09) (xy 201.93 85.09)
 		)
 		(stroke
@@ -7288,7 +7268,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 74.93) (xy 27.94 77.47)
+			(xy 25.4 74.93) (xy 25.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7388,7 +7368,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 63.5) (xy 76.2 63.5)
+			(xy 58.42 63.5) (xy 62.23 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7468,13 +7448,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 90.17) (xy 256.54 90.17)
+			(xy 62.23 74.93) (xy 66.04 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "233ad75c-fbd5-4f6e-a6f4-905787a6e372")
+		(uuid "23142688-d39e-4928-b614-d228af741f47")
 	)
 	(wire
 		(pts
@@ -7608,6 +7588,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 73.66) (xy 62.23 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c757c7-9608-4d23-932a-e6e2ab4478ef")
+	)
+	(wire
+		(pts
+			(xy 238.76 90.17) (xy 241.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30fcc301-a83d-4a7d-9a0e-4a32f1d24b68")
+	)
+	(wire
+		(pts
 			(xy 43.18 151.13) (xy 45.72 151.13)
 		)
 		(stroke
@@ -7618,17 +7618,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 38.1) (xy 99.06 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32dccee8-6d4e-47a8-b23b-3d4f8a134ead")
-	)
-	(wire
-		(pts
-			(xy 27.94 74.93) (xy 35.56 74.93)
+			(xy 25.4 74.93) (xy 38.1 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7748,16 +7738,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 27.94) (xy 99.06 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e6da7c7-aaa0-4d97-99f7-65fd50d83ee2")
-	)
-	(wire
-		(pts
 			(xy 198.12 74.93) (xy 201.93 74.93)
 		)
 		(stroke
@@ -7805,6 +7785,16 @@
 			(type default)
 		)
 		(uuid "461d0203-5c1e-4878-ac6e-ad95ba32f31a")
+	)
+	(wire
+		(pts
+			(xy 238.76 46.99) (xy 241.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "470007eb-3557-49d5-8f6d-8409921a9dd2")
 	)
 	(wire
 		(pts
@@ -7958,7 +7948,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 73.66) (xy 50.8 74.93)
+			(xy 38.1 73.66) (xy 38.1 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7985,16 +7975,6 @@
 			(type default)
 		)
 		(uuid "5cfb3060-948f-4e34-8e93-03e1f677f8cc")
-	)
-	(wire
-		(pts
-			(xy 27.94 73.66) (xy 27.94 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f2f96fa-89be-4ff0-97cc-ca4bf0c63f77")
 	)
 	(wire
 		(pts
@@ -8048,7 +8028,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 63.5) (xy 41.91 63.5)
+			(xy 25.4 63.5) (xy 29.21 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8058,7 +8038,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 59.69) (xy 76.2 63.5)
+			(xy 68.58 60.96) (xy 68.58 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8258,16 +8238,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 63.5) (xy 35.56 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73452603-684b-4750-b9cd-b52ff29f0967")
-	)
-	(wire
-		(pts
 			(xy 158.75 95.25) (xy 162.56 95.25)
 		)
 		(stroke
@@ -8315,16 +8285,6 @@
 			(type default)
 		)
 		(uuid "7ac0e2d7-9b7a-4460-a57f-94d2a3777b56")
-	)
-	(wire
-		(pts
-			(xy 35.56 74.93) (xy 50.8 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b0e1750-c0fe-41d0-8a4f-5422defae45f")
 	)
 	(wire
 		(pts
@@ -8438,7 +8398,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 63.5) (xy 58.42 63.5)
+			(xy 38.1 63.5) (xy 45.72 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8488,16 +8448,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 46.99) (xy 241.3 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f9a79d5-7b12-48be-a21e-7ef29eeaade8")
-	)
-	(wire
-		(pts
 			(xy 48.26 128.27) (xy 48.26 130.81)
 		)
 		(stroke
@@ -8515,6 +8465,16 @@
 			(type default)
 		)
 		(uuid "906c7354-f64d-48b9-8503-3d66d2b9623d")
+	)
+	(wire
+		(pts
+			(xy 68.58 74.93) (xy 66.04 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935a4707-b385-4257-a894-4d0879e791bc")
 	)
 	(wire
 		(pts
@@ -8548,7 +8508,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 57.15) (xy 64.77 63.5)
+			(xy 52.07 57.15) (xy 52.07 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8588,7 +8548,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 74.93) (xy 58.42 73.66)
+			(xy 45.72 74.93) (xy 45.72 73.66)
 		)
 		(stroke
 			(width 0)
@@ -8608,7 +8568,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 63.5) (xy 66.04 63.5)
+			(xy 52.07 63.5) (xy 53.34 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8648,27 +8608,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 46.99) (xy 256.54 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2bcabe1-eb71-4fec-aed3-7013ce2cbd58")
-	)
-	(wire
-		(pts
-			(xy 99.06 25.4) (xy 91.44 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a329a5c8-1e22-4f2e-9264-763a36b97922")
-	)
-	(wire
-		(pts
-			(xy 76.2 63.5) (xy 76.2 66.04)
+			(xy 68.58 63.5) (xy 68.58 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8748,16 +8688,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 63.5) (xy 27.94 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b217863d-3309-489b-9fd6-ab3793e9a3c0")
-	)
-	(wire
-		(pts
 			(xy 27.94 171.45) (xy 27.94 173.99)
 		)
 		(stroke
@@ -8778,7 +8708,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 58.42) (xy 50.8 63.5)
+			(xy 38.1 58.42) (xy 38.1 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8808,17 +8738,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 90.17) (xy 241.3 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc7a5a56-8a2f-497d-aafe-3d3914bc78f4")
-	)
-	(wire
-		(pts
-			(xy 50.8 63.5) (xy 50.8 66.04)
+			(xy 38.1 63.5) (xy 38.1 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8888,6 +8808,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 58.42) (xy 62.23 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a4e395-29b5-4f22-b064-81b830ec21dc")
+	)
+	(wire
+		(pts
 			(xy 91.44 38.1) (xy 85.09 38.1)
 		)
 		(stroke
@@ -8908,7 +8838,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 74.93) (xy 50.8 74.93)
+			(xy 254 46.99) (xy 256.54 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e09eab-b898-4d95-a07b-ea0c4299a563")
+	)
+	(wire
+		(pts
+			(xy 45.72 74.93) (xy 38.1 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8938,6 +8878,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 63.5) (xy 62.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a05229-ef9d-4bb0-b9eb-55d6b40fe6fc")
+	)
+	(wire
+		(pts
 			(xy 238.76 49.53) (xy 241.3 49.53)
 		)
 		(stroke
@@ -8955,16 +8905,6 @@
 			(type default)
 		)
 		(uuid "cd4b32de-b18b-4ec1-95ae-f1392ba67f09")
-	)
-	(wire
-		(pts
-			(xy 99.06 35.56) (xy 99.06 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdfa861f-07d7-4a6a-8f95-b1499f2eaf6f")
 	)
 	(wire
 		(pts
@@ -8988,7 +8928,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 73.66) (xy 76.2 74.93)
+			(xy 68.58 73.66) (xy 68.58 74.93)
 		)
 		(stroke
 			(width 0)
@@ -9028,7 +8968,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 63.5) (xy 50.8 63.5)
+			(xy 34.29 63.5) (xy 38.1 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9098,7 +9038,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 57.15) (xy 27.94 63.5)
+			(xy 25.4 58.42) (xy 25.4 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9158,13 +9098,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 66.04) (xy 58.42 63.5)
+			(xy 45.72 66.04) (xy 45.72 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e26fe2af-2969-4b6d-bd2b-4baeff06a059")
+	)
+	(wire
+		(pts
+			(xy 254 90.17) (xy 256.54 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49f479c-006e-43de-af8e-285df30de449")
 	)
 	(wire
 		(pts
@@ -9345,16 +9295,6 @@
 			(type default)
 		)
 		(uuid "f2cf92f2-72d6-456e-a477-2e3a05fd0af6")
-	)
-	(wire
-		(pts
-			(xy 35.56 73.66) (xy 35.56 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f569c6a4-7be9-4652-a402-4a18811fd00e")
 	)
 	(wire
 		(pts
@@ -10811,7 +10751,7 @@
 	)
 	(global_label "VA"
 		(shape input)
-		(at 58.42 57.15 90)
+		(at 45.72 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10821,7 +10761,7 @@
 		)
 		(uuid "ac17d839-713d-492f-82dd-f69ebbaf3a12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 51.9876 90)
+			(at 45.72 51.9876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10855,7 +10795,7 @@
 	)
 	(global_label "VREF"
 		(shape input)
-		(at 76.2 59.69 90)
+		(at 68.58 60.96 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10865,7 +10805,7 @@
 		)
 		(uuid "b276393e-c507-4e83-bb06-f3fee9082862")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2 52.1086 90)
+			(at 68.58 53.3786 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11339,7 +11279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d13ae1")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR018"
 			(at 121.92 99.06 0)
 			(effects
 				(font
@@ -11388,7 +11328,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR022")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11403,7 +11343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d13ae7")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR020"
 			(at 142.24 99.06 0)
 			(effects
 				(font
@@ -11452,7 +11392,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR027")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11467,7 +11407,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d13b00")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR019"
 			(at 132.08 99.06 0)
 			(effects
 				(font
@@ -11516,7 +11456,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR023")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11531,7 +11471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d13b06")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR017"
 			(at 115.57 99.06 0)
 			(effects
 				(font
@@ -11580,7 +11520,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR021")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11595,7 +11535,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d2eb45")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 58.42 127.635 0)
 			(effects
 				(font
@@ -11655,7 +11595,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -11670,7 +11610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d2eb4b")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR033"
 			(at 27.94 180.34 0)
 			(effects
 				(font
@@ -11719,7 +11659,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR03")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11734,7 +11674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d2eb5c")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 19.05 127 0)
 			(effects
 				(font
@@ -11840,7 +11780,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -11855,7 +11795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d2eb76")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR025"
 			(at 48.26 132.08 0)
 			(effects
 				(font
@@ -11904,7 +11844,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR06")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11919,7 +11859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d2eb7e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR026"
 			(at 74.93 132.08 0)
 			(effects
 				(font
@@ -11968,7 +11908,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR010")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11983,7 +11923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d2eb99")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG05"
 			(at 45.72 126.365 0)
 			(effects
 				(font
@@ -12033,7 +11973,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#FLG03")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -12048,7 +11988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d2eba4")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG06"
 			(at 66.04 126.365 0)
 			(effects
 				(font
@@ -12098,7 +12038,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#FLG04")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -12242,7 +12182,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d41908")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR06"
 			(at 77.47 46.99 0)
 			(effects
 				(font
@@ -12291,7 +12231,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR014")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12306,7 +12246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d77317")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR038"
 			(at 107.95 194.31 0)
 			(effects
 				(font
@@ -12355,7 +12295,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR018")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12370,7 +12310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d7733c")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR034"
 			(at 149.86 186.69 0)
 			(effects
 				(font
@@ -12419,7 +12359,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR025")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -12434,7 +12374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d77374")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR035"
 			(at 128.27 193.04 0)
 			(effects
 				(font
@@ -12483,7 +12423,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR020")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -12498,7 +12438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060ef1709")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 85.09 29.21 0)
 			(effects
 				(font
@@ -12517,7 +12457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 102.87 38.1 0)
 			(effects
 				(font
@@ -12570,7 +12510,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -12585,7 +12525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060ef316a")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 91.44 29.21 0)
 			(effects
 				(font
@@ -12604,7 +12544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 109.22 38.1 0)
 			(effects
 				(font
@@ -12657,7 +12597,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -12689,7 +12629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 48.26 134.112 90)
 			(effects
 				(font
@@ -12773,7 +12713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 48.26 136.652 90)
 			(effects
 				(font
@@ -12919,7 +12859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f18163")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 149.86 161.29 90)
 			(effects
 				(font
@@ -12990,7 +12930,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -13005,7 +12945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f21ab6")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 68.58 161.29 0)
 			(effects
 				(font
@@ -13077,7 +13017,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -13092,7 +13032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f36dce")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR037"
 			(at 74.93 194.31 0)
 			(effects
 				(font
@@ -13141,7 +13081,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR012")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -13156,7 +13096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f3aa17")
-		(property "Reference" "C10"
+		(property "Reference" "C14"
 			(at 107.95 175.26 0)
 			(effects
 				(font
@@ -13175,7 +13115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.73 184.15 0)
 			(effects
 				(font
@@ -13228,7 +13168,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "C10")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -13262,7 +13202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 44.45 38.1 0)
 			(effects
 				(font
@@ -13330,7 +13270,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f4179f")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 63.5 29.21 0)
 			(effects
 				(font
@@ -13349,7 +13289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 81.28 38.1 0)
 			(effects
 				(font
@@ -13402,7 +13342,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -13418,7 +13358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f4867a")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 163.83 161.29 90)
 			(effects
 				(font
@@ -13489,7 +13429,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -13504,7 +13444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f533bd")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 151.638 172.8216 0)
 			(effects
 				(font
@@ -13522,7 +13462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 148.082 173.99 90)
 			(effects
 				(font
@@ -13575,7 +13515,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -13590,7 +13530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f54365")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 165.608 172.8216 0)
 			(effects
 				(font
@@ -13608,7 +13548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 162.052 173.99 90)
 			(effects
 				(font
@@ -13661,7 +13601,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -13763,7 +13703,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f63da0")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 142.24 83.82 0)
 			(effects
 				(font
@@ -13835,7 +13775,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -13850,7 +13790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f687d7")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 77.47 29.21 0)
 			(effects
 				(font
@@ -13869,7 +13809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 95.25 38.1 0)
 			(effects
 				(font
@@ -13922,7 +13862,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -13937,7 +13877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000612f34c9")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 130.048 175.3616 0)
 			(effects
 				(font
@@ -13955,7 +13895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 126.492 176.53 90)
 			(effects
 				(font
@@ -14008,7 +13948,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -14041,7 +13981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.172 161.29 90)
 			(effects
 				(font
@@ -14194,93 +14134,6 @@
 		)
 	)
 	(symbol
-		(lib_id "stm32world:C_1UF_0603")
-		(at 27.94 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03e31208-eff3-4c8b-a237-c9e859d139ee")
-		(property "Reference" "C14"
-			(at 27.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_1UF_0805"
-			(at 29.21 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 45.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Display" "1uF"
-			(at 27.94 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "LCSC" "C15849"
-			(at 33.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1bd8c4bf-b4a3-47e9-b899-d15997b995bf")
-		)
-		(pin "2"
-			(uuid "0566b1bf-6319-433e-affc-41c68d01172a")
-		)
-		(instances
-			(project "WeAct-STM32G474"
-				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_DPST_x2")
 		(at 128.27 162.56 90)
 		(unit 1)
@@ -14366,7 +14219,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10c3f338-6249-445b-b01b-bdbde8abebbc")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR028"
 			(at 107.95 157.48 0)
 			(effects
 				(font
@@ -14415,7 +14268,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR017")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -14423,15 +14276,15 @@
 	)
 	(symbol
 		(lib_id "stm32world:C_1UF_0603")
-		(at 58.42 69.85 0)
+		(at 45.72 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1781e514-0dfe-45ea-90b9-2810eb351db5")
-		(property "Reference" "C16"
-			(at 58.42 67.31 0)
+		(property "Reference" "C8"
+			(at 45.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14440,7 +14293,7 @@
 			)
 		)
 		(property "Value" "C_1UF_0603"
-			(at 59.69 73.66 0)
+			(at 46.99 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14449,8 +14302,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 76.2 76.2 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 63.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14459,7 +14312,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 69.85 0)
+			(at 45.72 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14468,7 +14321,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 69.85 0)
+			(at 45.72 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14476,7 +14329,7 @@
 			)
 		)
 		(property "Display" "1uF"
-			(at 58.42 72.39 0)
+			(at 45.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14485,7 +14338,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 63.5 78.74 0)
+			(at 50.8 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14502,7 +14355,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "C16")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -14519,7 +14372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f95bcdf-9c37-45e8-be89-a0775e433cbe")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR01"
 			(at 26.67 26.67 0)
 			(effects
 				(font
@@ -14569,7 +14422,7 @@
 		(instances
 			(project ""
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR041")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -14577,15 +14430,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 256.54 90.17 270)
+		(at 256.54 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "29a5189d-1850-4364-81e5-501d63c53f73")
-		(property "Reference" "#PWR036"
-			(at 252.73 90.17 0)
+		(property "Reference" "#PWR08"
+			(at 252.73 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14594,7 +14447,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 261.62 90.17 90)
+			(at 261.62 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14602,7 +14455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 90.17 0)
+			(at 256.54 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14611,7 +14464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 90.17 0)
+			(at 256.54 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14620,7 +14473,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 90.17 0)
+			(at 256.54 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14633,7 +14486,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR036")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -14641,15 +14494,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 74.93 0)
+		(at 66.04 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2db9fb9d-3dcb-458b-80e6-de5709f4f1bb")
-		(property "Reference" "#PWR015"
-			(at 76.2 81.28 0)
+		(property "Reference" "#PWR013"
+			(at 66.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14658,7 +14511,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.327 79.3242 0)
+			(at 66.167 79.3242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14666,7 +14519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 74.93 0)
+			(at 66.04 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14675,7 +14528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 74.93 0)
+			(at 66.04 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14684,7 +14537,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 74.93 0)
+			(at 66.04 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14697,7 +14550,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -14712,7 +14565,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33168655-e38a-42b2-81f6-230038b54141")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR010"
 			(at 262.89 49.53 0)
 			(effects
 				(font
@@ -14761,7 +14614,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR030")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -14769,15 +14622,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 256.54 46.99 270)
+		(at 256.54 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3d8df036-c4e7-4a6f-9bb4-2daf9aae8e59")
-		(property "Reference" "#PWR035"
-			(at 252.73 46.99 0)
+		(property "Reference" "#PWR016"
+			(at 252.73 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14786,7 +14639,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 260.9342 47.371 90)
+			(at 260.9342 90.551 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14794,7 +14647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 46.99 0)
+			(at 256.54 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14803,7 +14656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 46.99 0)
+			(at 256.54 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14812,7 +14665,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 46.99 0)
+			(at 256.54 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14825,7 +14678,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR035")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -14840,7 +14693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f9e9555-cd8e-4c3c-bf93-44ff17ffb2b3")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR023"
 			(at 34.29 106.68 0)
 			(effects
 				(font
@@ -14889,7 +14742,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR038")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -14897,15 +14750,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 27.94 57.15 0)
+		(at 25.4 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "447131d9-56e0-44af-b9ce-07d8f9f00760")
-		(property "Reference" "#PWR09"
-			(at 27.94 60.96 0)
+		(property "Reference" "#PWR012"
+			(at 25.4 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14914,7 +14767,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 27.94 53.34 0)
+			(at 25.4 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14922,7 +14775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 57.15 0)
+			(at 25.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14931,7 +14784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 57.15 0)
+			(at 25.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14940,7 +14793,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 57.15 0)
+			(at 25.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14953,7 +14806,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR09")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14969,7 +14822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4754fd8a-5aba-475d-9c4c-5d2aceac123e")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 247.65 83.82 0)
 			(effects
 				(font
@@ -15087,7 +14940,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -15103,7 +14956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c02bb72-510d-46ef-b252-26abd3635e0f")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 247.65 40.64 0)
 			(effects
 				(font
@@ -15221,7 +15074,7 @@
 		(instances
 			(project ""
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -15236,7 +15089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "520088a0-b6fd-46c2-9521-2386e3782bf0")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR03"
 			(at 77.47 26.67 0)
 			(effects
 				(font
@@ -15285,94 +15138,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "stm32world:C_100NF_0603")
-		(at 99.06 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52524653-0c6b-4e14-bee1-b8b6aa3e1158")
-		(property "Reference" "C2"
-			(at 99.06 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_100NF_0603"
-			(at 100.33 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 116.84 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Display" "100nF"
-			(at 99.06 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 104.14 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cddca297-999a-4153-9e8c-13c68862ce9c")
-		)
-		(pin "2"
-			(uuid "e8482121-aa32-4d0d-af4a-2264a15d3d97")
-		)
-		(instances
-			(project "WeAct-STM32G474"
-				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "C2")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -15381,7 +15147,7 @@
 	(symbol
 		(lib_name "PWR_FLAG_1")
 		(lib_id "power:PWR_FLAG")
-		(at 50.8 58.42 0)
+		(at 38.1 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15389,8 +15155,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5663dfb7-3abf-495a-81a5-a957903975ec")
-		(property "Reference" "#FLG06"
-			(at 50.8 56.515 0)
+		(property "Reference" "#FLG02"
+			(at 38.1 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15399,7 +15165,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 50.8 53.34 0)
+			(at 38.1 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15408,7 +15174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 58.42 0)
+			(at 38.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15417,7 +15183,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 58.42 0)
+			(at 38.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15426,7 +15192,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 50.8 58.42 0)
+			(at 38.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15440,7 +15206,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#FLG06")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -15455,7 +15221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56fe94e4-5677-4d4c-b98c-25815427da02")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR030"
 			(at 74.93 161.29 0)
 			(effects
 				(font
@@ -15504,7 +15270,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR011")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -15520,7 +15286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bb4389f-c612-457d-bb23-1b39c12fd63e")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 38.1 96.5199 90)
 			(effects
 				(font
@@ -15578,7 +15344,7 @@
 		(instances
 			(project ""
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -15593,7 +15359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d1944cb-dabe-4e0f-9d13-a60d064d9dc8")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 180.34 43.18 0)
 			(effects
 				(font
@@ -15642,7 +15408,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -15657,7 +15423,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d4d0072-574a-4110-8bf3-1c199a92cc28")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR032"
 			(at 163.83 161.29 0)
 			(effects
 				(font
@@ -15706,7 +15472,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR028")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -15721,7 +15487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d67eca6-f66d-4fe3-8d5a-19bbd69a562d")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 165.1 127 0)
 			(effects
 				(font
@@ -15914,7 +15680,7 @@
 		(instances
 			(project ""
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -15929,7 +15695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5dee7533-1e82-4727-850a-db572862dc54")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR022"
 			(at 262.89 92.71 0)
 			(effects
 				(font
@@ -15978,7 +15744,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR034")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -15993,7 +15759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64f2e023-52dc-4d72-a58a-be7b714cdaa2")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR036"
 			(at 55.88 194.31 0)
 			(effects
 				(font
@@ -16042,7 +15808,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR07")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -16059,7 +15825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66631411-37f4-48a0-b80c-c3892b14f3d4")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG04"
 			(at 53.34 92.075 0)
 			(effects
 				(font
@@ -16109,7 +15875,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#FLG05")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -16194,15 +15960,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 64.77 57.15 0)
+		(at 52.07 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "73596fed-acf5-4d49-84b1-65433506b1aa")
-		(property "Reference" "#PWR02"
-			(at 64.77 60.96 0)
+		(property "Reference" "#PWR011"
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16211,7 +15977,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 64.77 53.34 0)
+			(at 52.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16219,7 +15985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 57.15 0)
+			(at 52.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16228,7 +15994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 57.15 0)
+			(at 52.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16237,7 +16003,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 57.15 0)
+			(at 52.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16250,7 +16016,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR02")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16265,7 +16031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7cbaef33-b6e8-4461-bd10-e5103363c6e8")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR029"
 			(at 128.27 157.48 0)
 			(effects
 				(font
@@ -16314,7 +16080,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR019")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -16322,15 +16088,15 @@
 	)
 	(symbol
 		(lib_id "stm32world:C_100NF_0603")
-		(at 76.2 69.85 0)
+		(at 68.58 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7d862611-41a1-443b-800a-e5e8892f8d8c")
-		(property "Reference" "C12"
-			(at 76.2 67.31 0)
+		(property "Reference" "C10"
+			(at 68.58 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16339,7 +16105,7 @@
 			)
 		)
 		(property "Value" "C_100NF_0603"
-			(at 77.47 73.66 0)
+			(at 69.85 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16348,8 +16114,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 93.98 76.2 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 86.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16358,7 +16124,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 69.85 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16367,7 +16133,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 69.85 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16375,7 +16141,7 @@
 			)
 		)
 		(property "Display" "100nF"
-			(at 76.2 72.39 0)
+			(at 68.58 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16384,7 +16150,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 81.28 78.74 0)
+			(at 73.66 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16401,7 +16167,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "C12")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -16409,15 +16175,15 @@
 	)
 	(symbol
 		(lib_id "stm32world:C_100NF_0603")
-		(at 50.8 69.85 0)
+		(at 38.1 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "818feab7-61a2-4375-9dde-48bee151bbfd")
-		(property "Reference" "C8"
-			(at 50.8 67.31 0)
+		(property "Reference" "C7"
+			(at 38.1 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16426,7 +16192,7 @@
 			)
 		)
 		(property "Value" "C_100NF_0603"
-			(at 52.07 73.66 0)
+			(at 39.37 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16435,8 +16201,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 68.58 76.2 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 55.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16445,7 +16211,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 69.85 0)
+			(at 38.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16454,7 +16220,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 69.85 0)
+			(at 38.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16462,7 +16228,7 @@
 			)
 		)
 		(property "Display" "100nF"
-			(at 50.8 72.39 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16471,7 +16237,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 55.88 78.74 0)
+			(at 43.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16488,7 +16254,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -16496,7 +16262,7 @@
 	)
 	(symbol
 		(lib_id "stm32world:FB_0603")
-		(at 44.45 63.5 90)
+		(at 31.75 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16505,7 +16271,7 @@
 		(fields_autoplaced yes)
 		(uuid "82480805-577e-43e1-b15b-4fdd79a9a7f5")
 		(property "Reference" "FB1"
-			(at 44.4119 59.69 90)
+			(at 31.7119 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16514,7 +16280,7 @@
 			)
 		)
 		(property "Value" "FB_0603"
-			(at 46.99 60.96 0)
+			(at 34.29 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16524,7 +16290,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 52.07 57.15 0)
+			(at 39.37 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16533,7 +16299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 63.5 0)
+			(at 31.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16542,7 +16308,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 63.5 0)
+			(at 31.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16550,7 +16316,7 @@
 			)
 		)
 		(property "LCSC" "C1002"
-			(at 49.53 57.15 0)
+			(at 36.83 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16574,6 +16340,93 @@
 		)
 	)
 	(symbol
+		(lib_id "stm32world:C_1UF_0603")
+		(at 62.23 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83a43dd1-3239-4738-982b-3b0136dd0627")
+		(property "Reference" "C9"
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_1UF_0603"
+			(at 63.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Display" "1uF"
+			(at 62.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00e185b8-67a2-4f18-83a4-b7be59a8f7ee")
+		)
+		(pin "2"
+			(uuid "d0c09726-1e90-4691-9d3c-549b18cb3603")
+		)
+		(instances
+			(project "WeAct-STM32G474"
+				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 149.86 157.48 0)
 		(unit 1)
@@ -16582,7 +16435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "879318a5-afb6-49dd-b466-4a713eebd656")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR031"
 			(at 149.86 161.29 0)
 			(effects
 				(font
@@ -16631,7 +16484,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR024")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -16646,7 +16499,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a204d7b3-3930-415b-b58e-e31e677ba390")
-		(property "Reference" "C17"
+		(property "Reference" "C13"
 			(at 48.26 100.33 0)
 			(effects
 				(font
@@ -16656,7 +16509,7 @@
 			)
 		)
 		(property "Value" "C_100NF_0603"
-			(at 49.53 106.68 0)
+			(at 48.26 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16665,7 +16518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 66.04 109.22 0)
 			(effects
 				(font
@@ -16718,7 +16571,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "C17")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -16726,15 +16579,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 238.76 46.99 90)
+		(at 238.76 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a310242e-c4d6-40ef-8721-bba284ba0f00")
-		(property "Reference" "#PWR026"
-			(at 242.57 46.99 0)
+		(property "Reference" "#PWR015"
+			(at 242.57 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16743,7 +16596,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 234.3658 46.609 90)
+			(at 234.3658 89.789 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16751,7 +16604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 46.99 0)
+			(at 238.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16760,7 +16613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 46.99 0)
+			(at 238.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16769,7 +16622,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 46.99 0)
+			(at 238.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16782,42 +16635,43 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR026")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "stm32world:C_100NF_0603")
-		(at 35.56 69.85 0)
+		(lib_name "PWR_FLAG_1")
+		(lib_id "power:PWR_FLAG")
+		(at 62.23 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a8b79913-db6e-427d-b40a-b0c7d57f349d")
-		(property "Reference" "C15"
-			(at 35.56 67.31 0)
+		(fields_autoplaced yes)
+		(uuid "a688cd16-9e86-4e27-8710-a07b00fe0e01")
+		(property "Reference" "#FLG03"
+			(at 62.23 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_100NF_0603"
-			(at 36.83 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 53.34 76.2 0)
+		(property "Value" "PWR_FLAG"
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16826,7 +16680,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 69.85 0)
+			(at 62.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16834,25 +16688,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 35.56 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Display" "100nF"
-			(at 35.56 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 40.64 78.74 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 62.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16861,15 +16698,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d3c68f9-0a74-4d0f-936b-b70fbdf080b1")
-		)
-		(pin "2"
-			(uuid "8d96c1ba-1f6a-4667-a094-bbc29124a2f9")
+			(uuid "ff54d7fb-b119-4a72-bdc7-15be085c87a8")
 		)
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "C15")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -16884,7 +16718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "caa4d14e-abce-4293-8b16-a5e9d9193ac7")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR027"
 			(at 180.34 138.43 0)
 			(effects
 				(font
@@ -16933,7 +16767,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR04")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -16948,7 +16782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce704dff-1f0e-46e7-9ae8-8721c9af937f")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR024"
 			(at 48.26 115.57 0)
 			(effects
 				(font
@@ -16997,7 +16831,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR039")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -17005,15 +16839,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 238.76 90.17 90)
+		(at 238.76 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d1cf81a2-8069-44c4-867d-9b15c1c51712")
-		(property "Reference" "#PWR037"
-			(at 242.57 90.17 0)
+		(property "Reference" "#PWR07"
+			(at 242.57 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17022,7 +16856,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 233.68 90.17 90)
+			(at 233.68 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17030,7 +16864,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 90.17 0)
+			(at 238.76 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17039,7 +16873,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 90.17 0)
+			(at 238.76 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17048,7 +16882,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 90.17 0)
+			(at 238.76 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17061,7 +16895,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR037")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -17076,7 +16910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d471ebf5-07a9-4ace-8a36-02a2d4c6ca97")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR09"
 			(at 232.41 49.53 0)
 			(effects
 				(font
@@ -17125,7 +16959,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR029")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -17140,7 +16974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d97b01cf-cb0f-48d7-a845-6e87dc89591d")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR021"
 			(at 232.41 92.71 0)
 			(effects
 				(font
@@ -17189,7 +17023,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR033")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -17204,7 +17038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb468233-3420-48b4-9754-5c678ede4bef")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR02"
 			(at 63.5 26.67 0)
 			(effects
 				(font
@@ -17253,7 +17087,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR08")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -17261,15 +17095,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 77.47 0)
+		(at 25.4 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f0660866-f1ca-4920-8a30-fff8096f6660")
-		(property "Reference" "#PWR016"
-			(at 27.94 83.82 0)
+		(property "Reference" "#PWR014"
+			(at 25.4 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17278,7 +17112,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 28.067 81.8642 0)
+			(at 25.527 80.5942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17286,7 +17120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 77.47 0)
+			(at 25.4 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17295,7 +17129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 77.47 0)
+			(at 25.4 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17304,7 +17138,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 77.47 0)
+			(at 25.4 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17317,7 +17151,7 @@
 		(instances
 			(project "WeAct-STM32G474"
 				(path "/65e88a4f-aac1-49fe-9a82-8bf43a551df0"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -17325,7 +17159,7 @@
 	)
 	(symbol
 		(lib_id "stm32world:FB_0603")
-		(at 68.58 63.5 90)
+		(at 55.88 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17334,7 +17168,7 @@
 		(fields_autoplaced yes)
 		(uuid "faae0f5a-7ef6-45cd-bda1-ac35cbcc7a08")
 		(property "Reference" "FB2"
-			(at 68.5419 59.69 90)
+			(at 55.8419 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17343,7 +17177,7 @@
 			)
 		)
 		(property "Value" "FB_0603"
-			(at 71.12 60.96 0)
+			(at 58.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17353,7 +17187,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17362,7 +17196,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 63.5 0)
+			(at 55.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17371,7 +17205,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 63.5 0)
+			(at 55.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17379,7 +17213,7 @@
 			)
 		)
 		(property "LCSC" "C1002"
-			(at 73.66 57.15 0)
+			(at 60.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
