@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|121795000|113793812|32b7aa9f-5ec0-4cbd-9e63-7ac4bcb8f042|fad4d1ed-b5dd-408e-84f1-547b6512b2c1",
-          ""
-        ],
-        [
-          "courtyards_overlap|165745000|114019706|393cb374-5e46-483a-8fb6-6a28726aaadd|5f878cab-f243-4ccb-8493-cd7b17c03d43",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -522,7 +513,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
