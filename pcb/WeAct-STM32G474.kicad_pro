@@ -514,7 +514,7 @@
       "idf": "",
       "netlist": "",
       "plot": "gerber/",
-      "pos_files": "",
+      "pos_files": "gerber/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",

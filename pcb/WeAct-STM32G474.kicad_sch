@@ -13627,7 +13627,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_10PF_0402"
+		(property "Value" "C_10PF_0603"
 			(at 123.19 90.17 0)
 			(effects
 				(font
@@ -13637,7 +13637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 92.71 0)
 			(effects
 				(font
@@ -13714,7 +13714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_10PF_0402"
+		(property "Value" "C_10PF_0603"
 			(at 143.51 90.17 0)
 			(effects
 				(font
@@ -13724,7 +13724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 160.02 92.71 0)
 			(effects
 				(font
